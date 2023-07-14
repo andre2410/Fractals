@@ -184,7 +184,7 @@ def increase_order():
     draw_order()
 
 #main method
-def main():
+def snowflake():
     try:
     #Global variables
         global windowWidth, windowHeight, quit, order
@@ -247,6 +247,3 @@ def main():
         pygame.quit()
     except(KeyboardInterrupt):
         print("bye")
-
-#run program
-main()
